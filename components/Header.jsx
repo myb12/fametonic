@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="container mx-auto mb-[57px] lg:max-w-screen-lg flex justify-end lg:justify-between items-center lg:items-start relative z-10 h-[46px] lg:h-[74px] pr-[29px] lg:pr-0 ">
+    <header className="container mx-auto lg:mb-[57px] lg:max-w-screen-lg flex justify-end lg:justify-between items-center lg:items-start relative z-10 h-[46px] lg:h-[74px] pr-[29px] lg:pr-0 ">
         <Link href="/" passHref className="mr-[94px] lg:mr-0">
             <Image
                 src="/images/fametonic-logo.svg"
