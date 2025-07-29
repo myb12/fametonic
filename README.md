@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fametonic Frontend Test Task
 
-## Getting Started
+This repository contains the solution for the Netzet frontend test task, aimed at demonstrating proficiency in Next.js and Tailwind CSS by recreating a specific design from Figma.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Experience the live application here:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 **[Live Demo: Fametonic Frontend]([https://fametonic-myb.netlify.app/])** 👈
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Assignment Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The primary goal of this assignment was to build a single-page application (homepage only) based on a provided Figma design, adhering to strict guidelines:
 
-## Learn More
+* **Technology Stack:** Next.js for the framework, Tailwind CSS for UI styling.
+* **Design Adherence:** Implement the provided Figma design ([Figma Link](https://www.figma.com/design/CeIAZvl524VDP3SpRmDuT5/Fametonic-Open?node-id=1-141&t=niDmCrnhS5PUipNv-1)) as close to pixel-perfect as possible.
+* **Responsiveness:** The design must be fully responsive across various screen sizes.
+* **Interactivity:** Menu button, About Us, Contact, and Get Started elements are designed as clickable buttons/links, but their functional actions (e.g., navigation) are intentionally left unimplemented as per instructions.
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get this project up and running on your local machine, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone the Repository:**
+    ```bash
+    git clone [YOUR_GITHUB_REPO_LINK_HERE]
+    cd fametonic-frontend-test # Or whatever your repo folder is named
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+3.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+4.  **Open in Browser:**
+    Open [http://localhost:3000](http://localhost:3000) in your web browser to view the application.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for reviewing my submission.
