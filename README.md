@@ -6,7 +6,7 @@ This repository contains the solution for the Netzet frontend test task, aimed a
 
 Experience the live application here:
 
-👉 **[Live Demo: Fametonic Frontend]([https://fametonic-myb.netlify.app/])** 👈
+👉 **[Live Demo: Fametonic Frontend](https://fametonic-myb.netlify.app/)** 👈
 
 ## Assignment Overview
 
