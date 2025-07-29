@@ -38,9 +38,15 @@ body {
 }
 
 .sale-banner-bg {
-  background-image: linear-gradient(90deg, #FC004E 0%, #10CBE0 100%);
+  background-image: linear-gradient(90deg, var(--color-fam-primary) 0%, var(--color-fam-secondary) 100%);
 }
 
 .text-shadow {
-  text-shadow: 0 4px 4px #FC004E;
+  text-shadow: 0 4px 4px var(--color-fam-primary);
+}
+
+@media screen and (max-width: 768px) {
+  .sale-banner-bg {
+    background: linear-gradient(90deg, var(--color-fam-primary) -2.16%, var(--color-fam-secondary) 115.27%);
+  }
 }
