@@ -27,9 +27,10 @@ export default function Header() {
       </nav>
 
       <button className="md:hidden text-white focus:outline-none absolute right-[29px]">
-            <div className="w-[20px] h-[2px] bg-white rounded-lg relative z-10 mb-1"></div>
-            <div className="w-[20px] h-[2px] bg-white rounded-lg relative z-10 mb-1"></div>
-            <div className="w-[20px] h-[2px] bg-white rounded-lg relative z-10 mb-1"></div>
+          <span className="sr-only">Open main menu</span>
+          {Array.from({ length: 3 }).map((_, index) =>
+            <div key={index} className="w-[20px] h-[2px] bg-white rounded-lg relative z-10 mb-1"/>
+          )}
       </button>
     </header>
   );
