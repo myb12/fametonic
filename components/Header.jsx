@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="container mx-auto lg:mb-[57px] lg:max-w-screen-lg flex justify-end lg:justify-between items-center lg:items-start relative z-10 h-[46px] lg:h-[74px] pr-[29px] lg:pr-0 ">
-        <Link href="/" passHref className="mr-[94px] lg:mr-0">
+    <header className="container mx-auto lg:mb-[57px] lg:max-w-screen-lg flex justify-center lg:justify-between items-center lg:items-start absolute top-[92px] lg:top-0 lg:relative z-10 h-[46px] lg:h-[74px]">
+        <Link href="/" passHref>
             <Image
                 src="/images/fametonic-logo.svg"
                 alt="Fametonic Logo"
@@ -26,7 +26,7 @@ export default function Header() {
         </Link>
       </nav>
 
-      <button className="md:hidden text-white focus:outline-none">
+      <button className="md:hidden text-white focus:outline-none absolute right-[29px]">
             <div className="w-[20px] h-[2px] bg-white rounded-lg relative z-10 mb-1"></div>
             <div className="w-[20px] h-[2px] bg-white rounded-lg relative z-10 mb-1"></div>
             <div className="w-[20px] h-[2px] bg-white rounded-lg relative z-10 mb-1"></div>
