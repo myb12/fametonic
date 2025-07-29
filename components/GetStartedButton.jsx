@@ -8,7 +8,7 @@ const GetStartedButton = ({ text = 'Get Started', onClick, href }) => {
     p-2
     rounded-[10px]
     text-xl
-    shadow-[2px_2px_10px_0_#00E7F9]
+    shadow-[2px_2px_10px_0_var(--color-fam-accent-cyan)]
     text-center   
     cursor-pointer
     flex
@@ -30,7 +30,7 @@ const GetStartedButton = ({ text = 'Get Started', onClick, href }) => {
             </button>
             <p className="mt-[10px] text-xs text-center">1-minute quiz for personalized Insights</p>
         </div>
-        <p className="mt-[30px] mb-3">By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms</p>
+        <p className="mt-[30px] mb-3 text-xs text-[var(--color-fam-text-gray)]">By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms</p>
     </div>
   );
 };

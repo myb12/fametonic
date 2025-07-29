@@ -4,12 +4,9 @@ import HeroSection from '@/components/HeroSection';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[var(--color-fam-dark-bg)] text-[var(--color-fam-text-light)]">
+    <main className="min-h-screen bg-[var(--color-fam-dark-bg)] text-[var(--color-fam-text-light)] overflow-hidden">
       <SaleBanner />
       <Header />
-      {/* <section className="container mx-auto px-4 py-8">
-        <h1>Main content area</h1>
-      </section> */}
       <HeroSection />
     </main>
   );
