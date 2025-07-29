@@ -23,7 +23,7 @@ To get this project up and running on your local machine, follow these steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [YOUR_GITHUB_REPO_LINK_HERE]
+    git clone https://github.com/myb12/fametonic
     cd fametonic-frontend-test # Or whatever your repo folder is named
     ```
 2.  **Install Dependencies:**
